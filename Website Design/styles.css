@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+.banner img{
+    max-width: 50px;  
+}
+.banner{
+    text-align: right;
+    margin: 20px;
+}
+.title h1{
+    text-align: center;
+    color:  white;
+}
+.title{
+    padding-top: 180px;
+}
+body{
+    background-image: url(bg.webp);
+    background-repeat:no-repeat;
+}
+.links{
+    display: grid;
+    grid-template-columns: 22% 10% 10% 15% 10% 10% 22%;
+    text-align: center;
+    margin: 40px;
+}
+.link{
+    padding: 10px;
+    background-color: brown;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+@font-face{
+    font-family:Thailand;
+    src:url(THAILAND.TTF)
+}
+h1{
+    font-size: 800%;
+    font-family: Thailand;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: maroon;
+}
+p{
+    color: white;
+}
